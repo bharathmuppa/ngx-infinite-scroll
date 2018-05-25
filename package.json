@@ -16,8 +16,7 @@
     "compodoc": "compodoc -p tsconfig.json",
     "compodoc-serve": "compodoc -s",
     "transpile": "ngc -p ./tsconfig.json",
-    "serve:prod": "npm run build && lite-server -c ./example/bs-config.json",
-    "postinstall": "opencollective postinstall"
+    "serve:prod": "npm run build && lite-server -c ./example/bs-config.json"
   },
   "typings": "./ngx-infinite-scroll.d.ts",
   "author": "Oren Farhi (orizens.com)",
@@ -70,9 +69,6 @@
     "webpack": "2.3.1",
     "yargs": "7.0.2",
     "zone.js": "^0.8.26"
-  },
-  "dependencies": {
-    "opencollective": "^1.0.3"
   },
   "collective": {
     "type": "opencollective",
